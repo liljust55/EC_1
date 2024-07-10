@@ -14,7 +14,7 @@ export const Navbar = () => {
           <img src={logo} alt="" />
           <p>SHOPPER</p>
         </div>
-        <ul className="nav-menu">
+       <ul className="nav-menu">
           <li onClick={() => {setMenu("shop")}}> Shop {menu === "shop" ? <hr/> :<></>}</li>
           <li onClick={() => {setMenu("mens")}}> Mens {menu === "mens" ? <hr/> :<></>}</li>
           <li onClick={() => {setMenu("womens")}}> Womens{menu === "womens" ? <hr/> : <></>}</li>
