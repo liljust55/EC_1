@@ -1,0 +1,20 @@
+{
+  "json.schemas": [
+    // ... your JSON schemas ...
+  ],
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": {
+      "path": "F:\\Downloaded Files\\Installed apps\\Git\\git-bash.exe"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  }
+}

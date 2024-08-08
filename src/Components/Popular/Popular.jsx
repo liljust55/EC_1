@@ -1,7 +1,7 @@
-import React from "react";
-import "./Popular.css";
-import data_product from "../Assets/data";
-import Item from "../Item/Item";
+import React from "react"
+import "./Popular.css"
+import data_product from "../Assets/data"
+import Item from "../Item/Item"
 
 const Popular = () => {
   return (
@@ -19,11 +19,11 @@ const Popular = () => {
               new_price={item.new_price}
               old_price={item.old_price}
             />
-          );
+          )
         })}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Popular;
+export default Popular

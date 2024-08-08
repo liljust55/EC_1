@@ -1,11 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export class LoginGroup extends Component {
-  render() {
-    return (
-      <div>LoginGroup</div>
-    )
-  }
+const LoginGroup = () => {
+  return (
+    <div>LoginGroup</div>
+  )
 }
 
 export default LoginGroup
